@@ -1,0 +1,2 @@
+# HelpfulFunctions
+Quick, useful functions
