@@ -321,7 +321,6 @@ def setFontsize(fs):
     Resets fontsize to fs everywhere
     
     """
-    #fs=15
     matplotlib.rc('xtick', labelsize=fs)
     matplotlib.rc('ytick', labelsize=fs)
     matplotlib.rc('font', size=fs)
@@ -329,7 +328,6 @@ def setFontsize(fs):
     font = {'size'   : fs}
     matplotlib.rc('font', **font)
     matplotlib.rcParams.update({'axes.titlesize':fs})
-    #
 
     
 
